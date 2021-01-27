@@ -1,0 +1,109 @@
+@font-face {
+  font-family: "Circular Std";
+  src: url(../src/assets/CircularStd-Bold.woff2) format("woff2"),
+    url(../src/assets/CircularStd-Bold.woff) format("woff");
+  font-weight: 700;
+  font-style: normal;
+}
+@font-face {
+  font-family: "Circular Std Book";
+  src: url(../src/assets/CircularStd-Book.woff2) format("woff2"),
+    url(../src/assets/CircularStd-Book.woff) format("woff");
+  font-weight: 500;
+  font-style: normal;
+}
+h1,h2,h3,h4,h5,h6{
+  font-family: "Circular Std";
+  letter-spacing: -0.04em;
+}
+a,p,div{
+  font-family: "Circular Std Book";
+}
+::selection{
+  background-color:#111;
+  color:white;
+}
+.main-container{
+  height: 100vh;
+}
+.golden{
+  padding:2vh 5vw;
+  background-color:palegoldenrod;
+}
+.golden:last-child{
+  padding-bottom: 5vh;
+}
+.caption{
+  font-size:11px;
+  font-family: "Circular Std Book";
+  letter-spacing: 0.04em;
+  text-transform:uppercase;
+}
+.caption-h{
+  font-family: "Circular Std Book";
+}
+.p-info {
+  font-family: "Circular Std Book";
+  font-size: 2.5vh;
+}
+.profile-pic{
+  width: 18rem;
+  height: 18rem;
+  object-fit:cover;
+}
+.navbar-a {
+  font-family: "Circular Std Book";
+  text-transform: lowercase;
+  color: white;
+  opacity: 0.5;
+  letter-spacing: 0.04em;
+}
+.navbar-main{
+  padding: 1vh 2vw;
+  background-color:#111;
+  color:white;
+}
+.navbar-a:hover {
+  opacity: 1;
+  transition: 0.75s ease;
+  color:white;
+}
+.jumbo-header{
+  padding: 5vh 5vw 0 5vw;
+  background-color:white;
+}
+.socials{
+  color:black;
+  background:none;
+  border:none;
+}
+.socials a {
+  color: black;
+  opacity: 1;
+}
+.project-a {
+  font-family: "Circular Std";
+  letter-spacing: 0.04em;
+  color: white;
+  text-transform: uppercase;
+  font-size: 12px;
+  border-radius: 25px;
+  background-color: #333;
+}
+.alert-enter {
+  opacity: 0;
+  transform: scale(0.9);
+}
+.alert-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 300ms, transform 300ms;
+}
+.alert-exit {
+  opacity: 1;
+}
+.alert-exit-active {
+  opacity: 0;
+  transform: scale(0.9);
+  transition: opacity 300ms, transform 300ms;
+}
