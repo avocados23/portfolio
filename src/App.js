@@ -8,9 +8,9 @@ import Contact from './Contact';
 import Projects from './Projects';
 
 const routes = [
-    { path: '/', name: 'Home', Component: Home },
-    { path: '/contact', name: 'Contact', Component: Contact },
-    { path: '/projects', name: 'Projects', Component: Projects }
+    { path: '/portfolio', name: 'Home', Component: Home },
+    { path: '/portfolio/contact', name: 'Contact', Component: Contact },
+    { path: '/portfolio/projects', name: 'Projects', Component: Projects }
 ];
 
 const App = () => {
