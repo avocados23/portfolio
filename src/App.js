@@ -6,11 +6,13 @@ import { CSSTransition } from 'react-transition-group'
 import Home from './Home';
 import Contact from './Contact';
 import Projects from './Projects';
+import Resume from './Resume';
 
 const routes = [
     { path: '/portfolio', name: 'Home', Component: Home },
     { path: '/portfolio/contact', name: 'Contact', Component: Contact },
-    { path: '/portfolio/projects', name: 'Projects', Component: Projects }
+    { path: '/portfolio/projects', name: 'Projects', Component: Projects },
+    { path: '/portfolio/resume', name: 'Resumé', Component: Resume }
 ];
 
 const App = () => {
