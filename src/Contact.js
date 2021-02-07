@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col, Jumbotron, ListGroup } from 'react-bootstrap';
-import { FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { FaGithub, FaLinkedin, FaTwitter, FaInstagram } from 'react-icons/fa';
 import { GrMail } from 'react-icons/gr';
 
 const Contact = () => {
@@ -18,6 +18,7 @@ const Contact = () => {
                         <ListGroup.Item className="socials"><a href="https://linkedin.com/in/nam-h-tran" alt="LinkedIn Profile"><FaLinkedin size="36" /></a></ListGroup.Item>
                         <ListGroup.Item className="socials"><a href="mailto:namht@vt.edu" alt="Personal e-mail"><GrMail size="36" /></a></ListGroup.Item>
                         <ListGroup.Item className="socials"><a href="https://twitter.com/boss_tran" alt="Twitter"><FaTwitter size="36" /></a></ListGroup.Item>
+                        <ListGroup.Item className="socials"><a href="https://instagram.com/boss_tran" alt="Instagran"><FaInstagram size="36" /></a></ListGroup.Item>
                     </ListGroup>
                 </Col>
             </Row>

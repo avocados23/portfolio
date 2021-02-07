@@ -14,7 +14,8 @@ const Home = () => {
                 <Col xs={8} className="golden">
                     <h5 className="text-muted caption-h">A little bit about myself</h5>
                     <p className="p-info">Hi, my name is Nam Tran! I am currently a sophomore majoring in computer science at the Virginia Tech
-                    College of Engineering. Currently, I am on track to graduate in the spring of 2023.
+                    College of Engineering. Currently, I am on track to graduate in the spring of 2023. I am currently a member of the Delta Psi
+                    Nu Fraternity and in my free time, I like to code side projects and play basketball.
                     </p>
                 </Col>
             </Row>

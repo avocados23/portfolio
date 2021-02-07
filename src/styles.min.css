@@ -89,6 +89,7 @@ a,p,div{
   font-size: 12px;
   border-radius: 25px;
   background-color: #333;
+  border: none;
 }
 .alert-enter {
   opacity: 0;
